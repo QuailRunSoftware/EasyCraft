@@ -4,7 +4,7 @@ The EasyCraft Library project provides a world view framework for sequencing rea
 
 Conceptual Basis
 
-This code is based on concepts from the 1962 SIMSCRIPT Simulation Programming Language developed at the RAND corporation by Harry M. Markowitz, J. Hausner, and H. W. Karr.
+This code uses concepts from the 1962 SIMSCRIPT Simulation Programming Language developed at the RAND corporation by Harry M. Markowitz, B. Hausner, and H. W. Karr.
 
 These concepts provide a "World View" of Entities, Attributes, and Sets. The Entities are data objects (consider them as equivalent to 'c' structs) and their Attributes (consider them as 'c' data members). A Set is an ordered collection of Entities (consider them as 'c' linked lists).
 
@@ -18,7 +18,7 @@ This project was developed by Glen Johnson with help from others. Inspiration ca
 
 == License ==
 
-Copyleft (c) 2018 Quail Run Software
+Copyleft (c) 2018 Quail Run Software.
 Copyright (c) 2018 Quail Run Software. All right reserved.
 
 All rights are Open Source under the Beerware License. As long as you retain this notice you can do whatever you want with this stuff. If we meet some day, and you think this stuff is worth it, you can buy me a beer in return. Additionally, the terms of the Gnu Lesser GPL apply:

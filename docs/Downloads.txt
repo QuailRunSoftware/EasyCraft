@@ -1,0 +1,45 @@
+Software And Setup For This Project
+===================================
+2 March 2018
+
+Software
+--------
+This project was developed on Windows 10 and uses a number of freely downloaded tools and components. The sources are recorded here. Their status and versioning is subject to change as decided by the suppliers.
+
+We want to thank the supporters of each of these items for making them freely available. The URLs point to the download site for each.
+
+1. Thanks to https://github.com/ for free hosting of this and other repositories. Read: https://en.wikipedia.org/wiki/GitHub 
+
+2. Thanks to Atlassian for: https://www.sourcetreeapp.com/ which is a free Git client for Windows. This product also includes an embedded verion of Git.
+
+3. Thanks to Linus Torvalds for creating: https://git-scm.com/ which provides a local desktop repository with a command line interface. Read: https://en.wikipedia.org/wiki/Git
+
+4. Thanks to: https://www.arduino.cc/ which is the arduino community. This project open source hardware and software and  provides an excellent small graphical interface for physical computing. Note: I found it better to install this from their ZIP file rather than through their Windows installer.
+
+5. Thanks to Cygwin for creating: https://www.cygwin.com/ which provide for Windows the functionality similar to Linux. Of particular value to us is its make command which allows scripting of builds.
+
+6. Thanks for: https://notepad-plus-plus.org/ who provide the notepad++ program. This product is extremely useful due to its advanced features for viewing and editing source code and other files.
+
+Setup
+-----
+
+1. It is convenient to have desktop shortcuts for everything that is downloaded and installed.
+
+2. GitHub is accessable worldwide. It is advisable to registerr for it, though anonymous download may be posible. The project repository can be used by clicking on "Clone or download" and then by clicking on "Download ZIP" and then installing in Arduino.
+
+3. Complete the SourceTree setup. Then changes can be offered via SourceTree through the Clone with HTTPS" panel by clicking on the "Copy to clipboard" icon, then pasting into SourceTree.
+
+4. Alternatively, changes can be offered via command-line Git.
+
+5. The Arduino IDE should be configured as follows:
+  a) Use Tools->Board->Boards Manager to install support for boards such as "Arduino SAMD Boards(32-bit ARM Cortex-M0)" or a compatible.
+  b) Use Tools->Board to select a board such as the Arduino Zero. Connecting the board is needed only to run programs on it.
+  c) Use Sketch->Include Library->Manage Libraries to include other libraries that may be needed.
+  d) Use Sketch->Include Library->Add ZIP Library... to install the ZIP file downloaded from GitHub. Use the same procedure to install other library files that have been downloaded as ZIP.
+
+6. Cygwin/Cygwin64 and Notepad++ do not require any setup.
+
+Other Arduino Libraries
+-----------------------
+
+Most of the Arduino Libraries needed for this work come in the Arduino package or via the Library Manager. However, a few must be obtained from the developer.

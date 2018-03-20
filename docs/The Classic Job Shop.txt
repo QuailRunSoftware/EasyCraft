@@ -1,0 +1,56 @@
+The Classic Job Shop
+====================
+3 March 2018
+
+reference
+---------
+https://www.rand.org/content/dam/rand/pubs/research_memoranda/2009/RM3310.pdf
+copyright(c) 1963
+
+Refer to
+https://www.copyright.gov/circs/circ15a.pdf
+Mandatory Renewal
+Works originally copyrighted between January 1, 1950, and
+December 31, 1963. Copyrights in their first 28-year term on
+January 1, 1978, still had to be renewed to be protected for
+the second term. If a valid renewal registration was made
+at the proper time, the second term will last for 67 years.
+However, if renewal registration for these works was not
+made within the statutory time limits, a copyright originally
+secured between 1950 and 1963 expired on December 31 of
+its 28th year, and protection was lost permanently.
+
+No renewal record exists in the Public Copyright Catalog (1978 to present)
+http://cocatalog.loc.gov/cgi-bin/Pwebrecon.cgi?DB=local&PAGE=First
+
+So it seems that the copyright protection on this book is permanently lost.
+
+However,
+Section 102(b) of the Copyright Act specifically states: “In no case does copyright protection for an original work of authorship extend to any idea, procedure, process, system, method of operation, concept, principle or discovery, regardless of the form in which it is described, explained, illustrated or embodied in such work.
+
+problem statement
+-----------------
+A simple job shop might have the following features:
+1. A number of machine groups.
+2. The machines in a group considered identically for all practical purposes.
+3. The number of groups and the number of machines in each are fixed and remain constant.
+4. Orders come in from outside at arbitrary points in time.
+5. Each order must go through operations at each of a series of machine groups.
+6. The routing through the shop and the processing time for each machine group are specified for each order and may be different for other orders.
+7. After an order is processed by one machine group it is immediately routed to the next.
+8. Orders ere enqued for each machine on a first-in-forst-out basis.
+9. Desired results are the average length of time that orders remain in the shop and the queue length for each machine group.
+10. Results come out at arbitrarily specified points during the run.
+
+names of the events and functions
+---------------------------------
+exog ordrin
+subroutine arrvl
+subroutine alloc
+exog eproc
+exog analyz
+report result
+
+sample data deck
+----------------
+TBD
