@@ -35,8 +35,8 @@ typedef void (*const Event_Routine_Ptr)();
 // Read up on it at:
 // www.learncpp.com/cpp-tutorial/78-function-pointers/
 //
-typedef struct Time_File_Set;
-typedef struct Time_File_Member;
+typedef struct Time_File_Set Time_File_Set;
+typedef struct Time_File_Member Time_File_Member;
 typedef Time_File_Member *Time_File_Member_Ptr;
 
 struct Time_File_Member {

@@ -26,8 +26,8 @@ Time Complexity: File O(N) Remove O(1)
 #pragma once
 
 typedef int Ranking_Type;
-typedef struct Ranked_Set;
-typedef struct Ranked_Member;
+typedef struct Ranked_Set Ranked_Set;
+typedef struct Ranked_Member Ranked_Member;
 typedef Ranked_Member *Ranked_Member_Ptr;
 
 struct Ranked_Member {

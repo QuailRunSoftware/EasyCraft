@@ -22,8 +22,8 @@ typedef My_Customer *My_Customer_Ptr;
 Fifo_Set Customer_Queue;
 
 void setup() {
+  Serial.begin(115200);
   bool OK = true;
-  delay(2000);    // Allow upload to settle
   Serial.println("Begin Fifo Example");
   OK = Verify_Fifo();  // Delete this call for production
   if (!OK) {

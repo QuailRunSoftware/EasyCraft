@@ -25,8 +25,8 @@ Time Complexity: File O(1) Remove O(1)
 
 #pragma once
 
-typedef struct Fifo_Set;
-typedef struct Fifo_Member;
+typedef struct Fifo_Set Fifo_Set;
+typedef struct Fifo_Member Fifo_Member;
 typedef Fifo_Member *Fifo_Member_Ptr;
 
 struct Fifo_Member {
