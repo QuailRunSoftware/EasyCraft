@@ -12,7 +12,7 @@ Entities, Attribtes, and Sets are a conceptual tool that can be used in many way
  
 System status changes at points in time called Events (consider them to be 'c' functions) which trigger by either Internal or External sources. An Event can create or destroy Entities, change Attribute values, file Entities into or remove them from Sets, and cause (or cancel) future Event occurrences.
 
-The SIMSCRIPT framework provides memory allocation and keeps track of the time order of Event handling. Thanks to Alasdar Mularney for the concept of synchronizing the simulated time clock to the real time clock.
+The SIMSCRIPT framework provides memory allocation and keeps track of the time order of Event handling. Thanks to Alasdar Mullarney for the concept of synchronizing the simulated time clock to the real time clock.
 
 This project was developed by Glen Johnson with help from others. Inspiration came from the SpinCraft vision of Don Seidenspinner, the founder and host of the San Diego Hardware Hackers SIG.
 
