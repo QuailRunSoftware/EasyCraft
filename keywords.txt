@@ -5,38 +5,38 @@
 #######################################
 # Datatypes (KEYWORD1)
 #######################################
-Event_Routine_Ptr		KEYWORD1
-Fifo_Set				KEYWORD1
-Fifo_Member				KEYWORD1
-Fifo_Member_Ptr			KEYWORD1
-Fifo_Set				KEYWORD1
-Generic_Member			KEYWORD1
-Generic_Member_Ptr		KEYWORD1
-Generic_Set				KEYWORD1
-Lifo_Member				KEYWORD1
-Lifo_Member_Ptr			KEYWORD1
-Lifo_Set				KEYWORD1
-Ranked_Member			KEYWORD1
-Ranked_Member_Ptr		KEYWORD1
-Ranked_Set				KEYWORD1
-Ranking_Type			KEYWORD1
-Time_File_Member		KEYWORD1
+Event_Routine_Ptr	KEYWORD1
+Fifo_Set	KEYWORD1
+Fifo_Member	KEYWORD1
+Fifo_Member_Ptr	KEYWORD1
+Fifo_Set	KEYWORD1
+Generic_Member	KEYWORD1
+Generic_Member_Ptr	KEYWORD1
+Generic_Set	KEYWORD1
+Lifo_Member	KEYWORD1
+Lifo_Member_Ptr	KEYWORD1
+Lifo_Set	KEYWORD1
+Ranked_Member	KEYWORD1
+Ranked_Member_Ptr	KEYWORD1
+Ranked_Set	KEYWORD1
+Ranking_Type	KEYWORD1
+Time_File_Member	KEYWORD1
 Time_File_Member_Ptr	KEYWORD1
-Time_File_Set			KEYWORD1
-Time_Type				KEYWORD1
-Time_File_Set			KEYWORD1
+Time_File_Set	KEYWORD1
+Time_Type	KEYWORD1
+Time_File_Set	KEYWORD1
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
-Cancel					KEYWORD2
-Cause					KEYWORD2
-File					KEYWORD2
-File_Before				KEYWORD2
-File_First				KEYWORD2
-File_Last				KEYWORD2
-Remove					KEYWORD2
-Remove_First			KEYWORD2
-Remove_Specific			KEYWORD2
+Cancel	KEYWORD2
+Cause	KEYWORD2
+File	KEYWORD2
+File_Before	KEYWORD2
+File_First	KEYWORD2
+File_Last	KEYWORD2
+Remove	KEYWORD2
+Remove_First	KEYWORD2
+Remove_Specific	KEYWORD2
 #######################################
 # Constants (LITERAL1)
 #######################################
